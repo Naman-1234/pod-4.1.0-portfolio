@@ -4,8 +4,13 @@
   place-items: center;
 }
 #map-pod {
-  height: 500px;
-  width: 1000px;
+  max-height: 700px;
+  height: 700px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  min-width: 500px;
+  min-height: 600px;
   z-index: 0;
 }
 
